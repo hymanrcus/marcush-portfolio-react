@@ -20,6 +20,6 @@ const projects = [
     frontRepositoryLink: "https://github.com/EricSokolowski/gathering-mana-front-end",
     backRepositoryLink: "https://github.com/EricSokolowski/gathering-mana-back-end",
     deploymentLink: "https://gathering-magic.netlify.app/",
-    groupMembers: [Eric Sokolowski, David Vazquez, Marcus Hyman ]
+    groupMembers: ["Eric Sokolowski, David Vazquez, Marcus Hyman"]
   },
 ]

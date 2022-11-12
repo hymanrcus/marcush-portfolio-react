@@ -5,7 +5,7 @@ function About() {
       <div className="img">
         <img id="me" src="public/assets/MrMeanor.png" alt="Marcus Hyman" />
       </div>
-      <h3> I'm a aspiring software engineer from just outside of Philadelpha PA. One thing people People who know me say I am very down to earth. I firmly beliive that relating to someone is a sure fire way to really get to know them. I am passinate about learning new things esspessially if they are difficult. </h3>
+      <h3> I'm a aspiring software engineer from just outside of Philadelpha PA. I've worked many different jobs in mayy different fields. I'm a down to earth person who thrives in team enviorments. I am a great addition to any team because of my willinigness to learn and ability to motivate those around me.</h3>
     </div>
     )
 }

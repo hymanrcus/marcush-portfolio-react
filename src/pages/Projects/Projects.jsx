@@ -1,16 +1,12 @@
+import { projects } from "/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/data/project.js";
+import ProjectsList from "/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/components/ProjectList.jsx";
 
-const Project = ({projects}) => {
-  return (
+const Projects = () => {
+  return ( 
     <>
-    {projects.map(project =>(
-      <section>
-        <h2>{project.name}</h2>
-        <img src={project.image} alt={project.name} />
-        <p>{project.description}</p>
-      </section>
-    ))}
+    <ProjectsList projects={projects}/>
     </>
   );
 }
 
-export default Project;
+export default Projects;

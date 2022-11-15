@@ -5,7 +5,7 @@ import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import Navbar from '/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/components/NavBar.jsx'
-import './App.css';
+
 
 function App() {
   return (

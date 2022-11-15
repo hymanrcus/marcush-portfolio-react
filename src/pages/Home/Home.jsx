@@ -1,15 +1,13 @@
-
+import MrMeanor from '/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/assets/MrMeanor.png'
 
 const Home = () => {
-  return (
-  <div className="home-page">
-    <h1>Marcus Hyman</h1>
-    <div className="img">
-      <img id="me" src="public/assets/MrMeanor.png" alt="Marcus Hyman" />
-    </div>
-    <h3>Software Engineer</h3>
-  </div>
-  )
+  return ( 
+    <main>
+      <h1>Marcus Hyman</h1>
+      <img style={{width: 350}} src={MrMeanor} alt="Marcus Hyman" />
+      <h1>Software Engineer</h1>
+    </main>
+  );
 }
 
-export default Home;
+export default Home; <h1>Home</h1>

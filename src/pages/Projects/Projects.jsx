@@ -1,11 +1,16 @@
-import projects from Projects
 
-function  Projects() {
+const Project = ({projects}) => {
   return (
     <>
-      <h1> Projects</h1>
+    {projects.map(project =>(
+      <section>
+        <h2>{project.name}</h2>
+        <img src={project.image} alt={project.name} />
+        <p>{project.description}</p>
+      </section>
+    ))}
     </>
-  )
+  );
 }
 
-export default Projects
+export default Project;

@@ -5,7 +5,7 @@ import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import Navbar from '/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/components/NavBar.jsx'
-
+import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path='contact' element={<Contact />} />
         <Route path='resume' element={<Resume />} />
         <Route path='projects' element={<Projects />} />
+        <Route path='projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
     </>
   );

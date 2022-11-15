@@ -1,9 +1,16 @@
 function Contact() {
   return (
     <div className="contact-page">
-      <h1>src/pages/Projects/Projects.jsx</h1>
-      <h1>Email: hymarcus27@gmail.com</h1>
-      <h1>Phone: 610-809-5827</h1>
+      <h1>Contact me if you would like to work with me!</h1>
+      <h3>Email:
+        <a href="mailto:marcushyman95@gmail.com">marcushyman95@gmail.com</a>
+      </h3>
+      <h3> 
+        <a href="https://www.linkedin.com/in/marcus-hyman1/">LinkedIn</a>
+      </h3>
+      <h3> 
+        <a href="https://github.com/hymanrcus">GitHub</a>
+      </h3>
     </div>
     )
 }

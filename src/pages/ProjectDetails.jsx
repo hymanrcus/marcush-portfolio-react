@@ -1,4 +1,4 @@
-import { projects } from "/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/data/project.js";
+import { projects } from "/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/data/projects.js";
 import { useLocation } from "react-router-dom";
 import findProject from "/Users/mrmeanor/code/sei/labs/marcush-porfolio-react/src/utillities/findProject.js";
 
@@ -7,7 +7,7 @@ const ProjectDetails = () => {
   const project = findProject(location.pathname)
   return ( 
     <>
-      <h1> {project.title} </h1>
+      <h1> {projects.title} </h1>
       <p> {project.description} </p>
       <img src={project.image} alt="proj screenshot" />
     </>

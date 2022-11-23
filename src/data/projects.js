@@ -23,3 +23,4 @@ const projects = [
     groupMembers: ["Eric Sokolowski, David Vazquez, Marcus Hyman"]
   },
 ]
+export {projects}
